@@ -1,0 +1,357 @@
+section{
+    display: flex;
+    width: 1620px;
+    height: 1184px;
+}
+.menu{
+    width: 212px;
+    height: 1154px;
+    border-radius: 40px 0px 0px 40px;
+    background: #FFF;
+    box-shadow: 1px 0px 2px 0px rgba(128, 128, 128, 0.10);
+}
+.logo{
+    margin: 45px 55px;
+    margin-bottom: 122px;
+}
+.menu button{
+    border: none;
+    color: #ABB5BA;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    background: #fff;
+    margin-bottom: 40px;
+    margin-left: 33px;
+    transition-duration: 0.7s;
+    
+}
+.menu button span{
+    margin-right: 26px;
+}
+.menu-img{
+    width: 150px;
+    height: 224px;
+    margin-top: 290px;
+    margin-left: 36px;
+}
+.menu button:hover{
+    width: 172px;
+    height: 50px;
+    border-radius: 30px;
+    background: var(--red-orange, #EB763C);
+    cursor: pointer;
+    color: var(--white, #FFF);
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.main{
+    background: #F9F9F9;
+}
+.main input{
+    margin: 35px;
+    width: 492px;
+    height: 50px;
+    border-radius: 30px;
+    background: #ECF0F3;
+    border: none;
+    color: #B2BAC8;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 30px;
+    margin-right: -20px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.search{
+    margin-left: -20px;
+}
+.box{
+    width: 855px;
+    height: 280px;
+    border-radius: 24px;
+    margin-left: 35px;
+    background: #1AA928;
+    position: relative;
+}
+.box .txt{
+    color: var(--white, #FFF);
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: 1.5px;
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    width: 300px;
+}
+.box .txt2{
+    color: #DCE0E5;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 135px;
+    left: 50px;
+}
+.box button{
+    width: 139px;
+    height: 42px;
+    border-radius: 30px;
+    background: var(--red-orange, #EB763C);
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 194px;
+    left: 50px;
+}
+.box .img1{
+    position: absolute;
+    top: 24px;
+    right: 50px;
+}
+.box .img3{
+    position: absolute;
+    top: 56px;
+    right: 113px;
+}
+.box .img2{
+    position: absolute;
+    top: 75px;
+    right: 135px;
+}
+.main-div{
+    display: flex;
+}
+.div{
+    margin-right: 70px;
+}
+.box-2 .div{
+    margin-right: 45px;
+}
+.box2{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.box2 .popular{
+    color: var(--black-font, #303030);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+.box2 .view{
+    color: #1AA928;
+    text-align: right;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.div img{
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.div .eat-alone{
+    color: #434C56;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.div .name{
+    color: #8D96A8;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box-2{
+    margin-top: 20px;
+}
+.box2 hr{
+    width: 855px;
+    height: 1px;
+    border-radius: 20px;
+    background: #E0E7EB;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.div-next img{
+    border-radius: 100%;
+    padding: 5px;
+}
+.div-next img:hover{
+    border: 4px solid #1AA928;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+.box3{
+    display: flex;
+}
+.block:hover{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+.box3 .block{
+    width: 240px;
+    height: 87px;
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-top: 32px;
+    border-radius: 16px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 20px 60px 0px rgba(128, 144, 155, 0.20);
+    position: relative;
+}
+.block img{
+    border-radius: 11px;
+    background: #E4FBE7;
+    padding: 13px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.block .number{
+    color: var(--black-font, #303030);
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: -5px;
+    left: 102px;
+}
+.block p:last-child{
+    color: #8A97A4;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
+    left: 102px;
+}
+.final-part{
+    width: 678px;
+    height: 1184px;
+    border-radius: 40px;
+    background: #E4FBE7;
+    position: relative;
+}
+.bell{
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.final-part select{
+    width: 243px;
+    height: 50px;
+    border-radius: 30px;
+    background: var(--white, #FFF);
+    padding-left: 60px;
+    border: none;
+    position: absolute;
+    top: 35px;
+    left: 102px;
+    color: #212121;
+    font-family: Nunito;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    z-index: 1;
+}
+.select-img{
+    position: absolute;
+    top: 41px;
+    left: 108px;
+    z-index: 2;
+}
+.player{
+    width: 353px;
+    height: 331px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 40px 60px 0px rgba(128, 144, 155, 0.25);
+    position: absolute;
+    top: 115px;
+    left: 32px;
+}
+.player .img1{
+    position: absolute;
+    top: 163px;
+    left: 52px;
+}
+.player .img2{
+    position: absolute;
+    top: 145px;
+    left: 143px;
+}
+.player .img3{
+    position: absolute;
+    top: 163px;
+    left: 259px;
+    width: 66px;
+}
+.player .background-img{
+    position: absolute;
+    top: 273px;
+    left: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
